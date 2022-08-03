@@ -1,0 +1,28 @@
+.asistidos {
+    color:gray;
+    background-color: lightgreen;
+}
+
+.botones-contenedor {
+    display: flex;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:beige;
+    padding: 0 10px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.li-asistido {
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+.informacion {
+    width:80%;
+}

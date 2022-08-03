@@ -1,0 +1,28 @@
+.boton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 2px 10px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .alert {
+      background-color: rgb(167, 76, 76);
+  }
+
+  .blue {
+    background-color:darkslateblue;
+  }
+
+  .disabled {
+    background-color: gray; 
+    cursor:default;
+  }
+  
+  

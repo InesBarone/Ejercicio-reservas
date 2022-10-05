@@ -19,7 +19,7 @@ export default function Bar({estaLogeado, cambiarEstaLogeado}) {
                 </Link>
                 : null}
             </div>
-            {estaLogeado? <Boton texto='Cerrar sesion' variante='blue' onClick={() => {cambiarEstaLogeado(false)}}/> : (
+            {estaLogeado? <Link to='/login'><Boton texto='Cerrar sesion' variante='blue' onClick={() => {cambiarEstaLogeado(false)}}/></Link> : (
             <Link to='/login'>
             <Boton texto="Ingresar" variante="blue" onClick={() => {cambiarEstaLogeado(false)}}/>
             </Link>

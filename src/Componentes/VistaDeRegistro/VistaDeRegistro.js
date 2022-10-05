@@ -32,19 +32,19 @@ const VistaDeRegistro = ({estaLogeado}) => {
 
     return (
         <div className='VistaDeRegistro'>
-            <h1>Reservas:</h1>
             {estaLogeado? 
             <>
             <Registro agregarUsuario={agregarUsuario}/></> :null }
-            <p className="subtitulo">Hay {usuarios.length} usuarios</p>
+            <h1>Reservas:</h1>
+            <p className="subtitulo">Número de reservas: {usuarios.length}</p>
             <ul>
             {usuarios.map((usuario, i) => {
                 return (
-                    <Reserva key={i} indice={i} usuario={usuario} removerUsuario={removerUsuario} setAsistidos={setAsistidos}/>
+                    <Reserva key={i} indice={i} usuario={usuario} removerUsuario={removerUsuario} setAsistidos={setAsistidos} estaLogeado={estaLogeado}/>
                 )
             })}
             </ul>
-            <p className="subtitulo">Asistieron: {asistidos.length}</p>
+            <p className="subtitulo">Número de asistidos: {asistidos.length}</p>
             <ul>
                 {asistidos.map((asistido, i) => {
                     return (

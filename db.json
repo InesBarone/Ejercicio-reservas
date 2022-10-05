@@ -1,0 +1,12 @@
+{
+    "mozos": [
+       {"id":1, "nombre":"Juan", "apellido":"Perez", "mail":"juanperez@gmail.com", "edad": "20", "ci":"12345678", "direccion": "calle falsa 123", "telefono": "12345678", "password":"123", "background": "pink"},
+       {"id":2, "nombre":"Florencia", "apellido":"Gonzales", "mail":"florgonzales@gmail.com", "edad": "29", "ci":"12345678", "direccion": "calle falsa 123", "telefono": "12345678", "password":"123", "background": "skyblue"},
+       {"id":3, "nombre":"Sebastian", "apellido":"Rodriguez", "mail":"sebarodri@gmail.com", "edad": "27", "ci":"12345678", "direccion": "calle falsa 123", "telefono": "12345678", "password":"123", "background": "aquamarine"},
+       {"id":4, "nombre":"Tamara", "apellido":"Sanchez", "mail":"tamarasanchez@gmail.com", "edad": "24", "ci":"12345678", "direccion": "calle falsa 123", "telefono": "12345678", "password":"123", "background": "orange"}
+    ],
+    "usuarios": [
+        {"id": 1, "nombre":"Juan", "apellido": "Perez"}, 
+        {"id": 2, "nombre":"Juan", "apellido": "Perez"} 
+    ]
+}

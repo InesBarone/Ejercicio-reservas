@@ -47,9 +47,9 @@ const esInvalido = () => {
             <p>Mail: {datos.mail}</p>
             <p>Telefono: {datos.telefono}</p>
             <div className="formulario">
-            <input id="nombre" type="text" value={datos.nombre} onChange={manejarDatos} placeholder="Ingrese su nombre" className='input-form'></input>
-            <input id="mail" type="email" value={datos.mail} onChange={manejarDatos} placeholder="Ingrese su mail" className='input-form'></input>
-            <input id="telefono" type="number" value={datos.telefono} onChange={manejarDatos} placeholder="Ingrese su celular" className='input-form'></input>
+            <input id="nombre" type="text" value={datos.nombre} onChange={manejarDatos} placeholder="Ingrese nombre" className='input-form'></input>
+            <input id="mail" type="email" value={datos.mail} onChange={manejarDatos} placeholder="Ingrese mail" className='input-form'></input>
+            <input id="telefono" type="number" value={datos.telefono} onChange={manejarDatos} placeholder="Ingrese celular" className='input-form'></input>
             <Boton texto="Registrar" onClick={manejarRegistro} disabled={esInvalido()}/>
             {/* <button className="boton" disabled={esInvalido()} onClick={manejarRegistro} >Registrar</button> */}
         </div>

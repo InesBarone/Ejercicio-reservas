@@ -26,3 +26,9 @@ li {
 .informacion {
     width:80%;
 }
+
+.cont {
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
